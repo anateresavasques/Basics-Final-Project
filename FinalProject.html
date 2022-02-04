@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitWork &#128087</title>
+    <style>
+        body {
+            background-image: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);}
+
+      h1 {
+        text-align: center;
+        color: #862305;
+        border:black;
+        border-color: black;
+        font-family: fantasy;
+        font-weight: lighter;
+        font-size: 50px;
+      }
+
+
+      h2 {
+        text-align: center;
+        border: 1px solid black; 
+        padding: 15px;
+        font-size: 20px;
+        font-family: fantasy;
+        font-weight: 35;
+        border-radius: 10px;
+        border-color: rgb(117, 53, 0);
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 20px 0 10px;
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        background: #6d3500;
+        color: white;
+        font-size: 18px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        color: #6d3500;
+        background: white;
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 15px 60px;
+      }
+
+      .first {
+          opacity: 0;
+          transition: all 200ms ease-in-out;
+      }
+
+      .first:hover {
+          opacity: 1;
+          cursor: pointer;}
+
+      .cotton {
+        color: #522800;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .cotton:hover {
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+      .footer {
+        text-align: center;
+        color: #522800;
+        text-decoration: none;
+      }
+
+      .final {
+          color: #522800;
+         text-decoration: none;
+      }
+
+      .final:hover {
+          text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1>FitWork</h1>
+      <h2>Cotton-Lovers, Casual and Sporty <br><br> <span = class="first"> For Women</span></h2>
+      <img
+        src="https://cdn.tophatch.com/media/filer_public_thumbnails/filer_public/9c/25/9c25bddc-005e-4c11-8926-9f28b1d10337/emilykeller_concepts1-colorsketches.jpg__992x992_q85_subsampling-2.jpg"
+        alt="Clothes Draw"
+      />
+      <br>
+      <hr>
+      <p>
+        First <strong>hand and custom made</strong> brand that combines two styles in one fabric. 
+        Be casual by feeling sporty, and be sporty by feeling casual.
+        We provide our customers with the first piece purchased <strong>free of charge</strong>, before our opening.
+      </p>
+      
+      <hr>
+      <br>
+      <a
+        href="https://kadevos.com/blogs/ask-dr-deb/why-we-love-cotton"
+        target="_blank"
+        class="cotton"
+      >
+        Is cotton a really good fabric?
+      </a>
+      <button class="place-button">👉 Place your order!</button>
+      <p class="footer">
+        This page was built by
+        <a href="https://https://www.linkedin.com/in/ana-teresa-vasques-82029917a/" 
+        target="_blank"
+        class="final"> 
+         <em><strong>Ana Teresa</strong></em>
+    </a>
+      </p>
+    </div>
+    <script>
+      function place() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        let continent = prompt("Which continent do you live in?");
+        
+        if (continent === "Europe" || continent === "europe") {
+          alert("Thank you, " +
+            name +
+            "! We'll be in touch by email, to collect more details about your order!");
+        } else {
+          alert("Sorry " + name + "! " + "We won't be available to deliver your order in your continent (YET!)");
+        }
+        }
+      let placeButton = document.querySelector(".place-button");
+      placeButton.addEventListener("click", place);
+
+    </script>
+  </body>
+</html>
