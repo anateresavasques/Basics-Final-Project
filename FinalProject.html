@@ -7,111 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dongle&family=PT+Mono&family=Roboto+Mono:wght@100&family=Sedgwick+Ave&family=Source+Serif+4:wght@300;500&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background: linear-gradient(109.5deg, rgb(229, 233, 177) 11.2%, rgb(223, 205, 187) 100.2%);
-            font-family: 'Architects Daughter', cursive;
-          }
-
-      h1 {
-        text-align: center;
-        color: #862305;
-        border:black;
-        border-color: black;
-        font-family: fantasy;
-        font-weight: lighter;
-        font-size: 50px;
-      }
-
-
-      h2 {
-        text-align: center;
-        border: 1px solid black; 
-        padding: 15px;
-        font-size: 20px;
-        font-family: fantasy;
-        font-weight: 35;
-        border-radius: 10px;
-        border-color: rgb(117, 53, 0);
-      }
-
-      img {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        border-radius: 10px;
-      }
-
-      p {
-        line-height: 1.5;
-        font-size: 15px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin: 20px 0 10px;
-        text-align: center;
-      }
-
-      button {
-        display: block;
-        margin: 20px auto;
-        background: #6d3500;
-        color: white;
-        font-size: 18px;
-        padding: 15px 20px;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
-        transition: all 200ms ease-in-out;
-      }
-
-      button:hover {
-        color: #6d3500;
-        background: white;
-        cursor: pointer;
-      }
-
-      .container {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 15px 60px;
-      }
-
-      .first {
-          opacity: 0;
-          transition: all 200ms ease-in-out;
-      }
-
-      .first:hover {
-          opacity: 1;
-          cursor: pointer;}
-
-      .cotton {
-        color: #522800;
-        text-decoration: none;
-        font-size: 16px;
-        font-weight: normal;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
-
-      .cotton:hover {
-        text-decoration: underline;
-        font-weight: bold;
-      }
-
-      .footer {
-        text-align: center;
-        color: #522800;
-        text-decoration: none;
-      }
-
-      .final {
-          color: #522800;
-         text-decoration: none;
-      }
-
-      .final:hover {
-          text-decoration: underline;
-      }
-    </style>
+    
   </head>
   <body>
     <div class="container">
@@ -148,23 +44,6 @@
     </a>
       </p>
     </div>
-    <script>
-      function place() {
-        let name = prompt("What is your name?");
-        let email = prompt("What is your email address?");
-        let continent = prompt("Which continent do you live in?");
-        
-        if (continent === "Europe" || continent === "europe") {
-          alert("Thank you, " +
-            name +
-            "! We'll be in touch by email, to collect more details about your order!");
-        } else {
-          alert("Sorry " + name + "! " + "We won't be available to deliver your order in your continent (YET!)");
-        }
-        }
-      let placeButton = document.querySelector(".place-button");
-      placeButton.addEventListener("click", place);
-
-    </script>
+    
   </body>
 </html>
