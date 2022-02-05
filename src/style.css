@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(
+    109.5deg,
+    rgb(229, 233, 177) 11.2%,
+    rgb(223, 205, 187) 100.2%
+  );
+  font-family: "Architects Daughter", cursive;
+}
+
+h1 {
+  text-align: center;
+  color: #862305;
+  border: black;
+  border-color: black;
+  font-family: fantasy;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  padding: 15px;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: 35;
+  border-radius: 10px;
+  border-color: rgb(117, 53, 0);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px 0 10px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: #6d3500;
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  color: #6d3500;
+  background: white;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px 60px;
+}
+
+.first {
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+
+.first:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.cotton {
+  color: #522800;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cotton:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  color: #522800;
+  text-decoration: none;
+}
+
+.final {
+  color: #522800;
+  text-decoration: none;
+}
+
+.final:hover {
+  text-decoration: underline;
+}
