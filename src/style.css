@@ -14,13 +14,19 @@ h1 {
   font-family: "Sacramento", cursive;
   font-size: 60px;
   margin-bottom: 5px;
+  padding: 10px;
 }
 
 h2 {
   text-align: center;
-  border: 3px solid #a04e35;
-  border-style: dotted;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+  border: 5px solid #a04e35;
+  border-style: double;
   padding: 15px;
+  width: 550px;
   font-size: 32px;
   font-family: "Sacramento", cursive;
   font-weight: 35;
@@ -33,26 +39,29 @@ img {
   margin: 0 auto;
   max-width: 700px;
   border-radius: 25px;
-  border-style: dotted;
-  border: 1px solid #a04e35;
+  border-style: double;
+  border: 2px solid #a04e35;
 }
 
 #clothes2 {
   width: 300px;
   height: 370px;
   margin-right: -165px;
+  margin-top: -3px !important;
 }
 
 #clothes3 {
   width: 300px;
   height: 370px;
   margin-right: -165px;
+  margin-top: -3px !important;
 }
 
 #clothes4 {
   width: 300px;
   height: 370px;
   margin-right: -165px;
+  margin-top: -3px !important;
 }
 
 p {
@@ -63,25 +72,25 @@ p {
   text-align: center;
 }
 
-button {
+.place-button {
   display: block;
-  margin: 20px auto;
+  margin: auto;
   background: #6d3500;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 15px 20px;
   border: none;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
   transition: all 200ms ease-in-out;
-  font-family: "Sacramento", cursive;
 }
 
-button:hover {
+.place-button:hover {
   color: #6d3500;
   background: white;
   cursor: pointer;
-  font-family: "Sacramento", cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .container {
@@ -100,34 +109,51 @@ button:hover {
   cursor: pointer;
 }
 
-.cotton {
-  color: #522800;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: normal;
+.information {
+  color: #522800 !important;
+  text-decoration: none !important;
+  font-size: 26px;
+  font-weight: bold !important;
   font-family: "Sacramento", cursive;
+  text-align: center;
+}
+
+.cotton {
+  color: #522800 !important;
+  text-decoration: none !important;
+  font-size: 26px;
+  font-weight: bold !important;
+  font-family: "Sacramento", cursive;
+  text-align: center;
 }
 
 .cotton:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
+  cursor: pointer;
   font-weight: bold;
   font-family: "Sacramento", cursive;
 }
 
-.footer {
+.mine {
   text-align: center;
-  color: #522800;
-  text-decoration: none;
+  color: #522800 !important;
+  text-decoration: none !important;
   font-family: "Sacramento", cursive;
+  font-size: 20px;
 }
 
-.final {
-  color: #522800;
-  text-decoration: none;
+#link {
+  text-align: center;
+  color: #522800 !important;
+  text-decoration: none !important;
   font-family: "Sacramento", cursive;
+  font-size: 20px;
 }
 
-.final:hover {
-  text-decoration: underline;
+#link:hover {
+  text-align: center;
+  color: #522800 !important;
+  text-decoration: none !important;
   font-family: "Sacramento", cursive;
+  font-size: 25px;
 }
