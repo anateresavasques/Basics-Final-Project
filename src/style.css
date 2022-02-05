@@ -37,6 +37,21 @@ img {
   border: 1px solid #a04e35;
 }
 
+#clothes2 {
+  width: 300px;
+  display: inline;
+}
+
+#clothes3 {
+  width: 300px;
+  display: inline;
+}
+
+#clothes4 {
+  width: 300px;
+  display: inline;
+}
+
 p {
   line-height: 1.5;
   font-size: 15px;
