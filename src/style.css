@@ -4,7 +4,6 @@ body {
     rgb(229, 233, 177) 11.2%,
     rgb(223, 205, 187) 100.2%
   );
-  font-family: "Architects Daughter", cursive;
 }
 
 h1 {
@@ -12,7 +11,7 @@ h1 {
   color: #862305;
   border: black;
   border-color: black;
-  font-family: fantasy;
+  font-family: "Indie Flower", cursive;
   font-weight: lighter;
   font-size: 50px;
 }
@@ -22,7 +21,7 @@ h2 {
   border: 1px solid black;
   padding: 15px;
   font-size: 20px;
-  font-family: fantasy;
+  font-family: "Sacramento", cursive;
   font-weight: 35;
   border-radius: 10px;
   border-color: rgb(117, 53, 0);
@@ -38,7 +37,7 @@ img {
 p {
   line-height: 1.5;
   font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Sacramento", cursive;
   margin: 20px 0 10px;
   text-align: center;
 }
@@ -54,12 +53,14 @@ button {
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
   transition: all 200ms ease-in-out;
+  font-family: "Sacramento", cursive;
 }
 
 button:hover {
   color: #6d3500;
   background: white;
   cursor: pointer;
+  font-family: "Sacramento", cursive;
 }
 
 .container {
@@ -83,25 +84,29 @@ button:hover {
   text-decoration: none;
   font-size: 16px;
   font-weight: normal;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Sacramento", cursive;
 }
 
 .cotton:hover {
   text-decoration: underline;
   font-weight: bold;
+  font-family: "Sacramento", cursive;
 }
 
 .footer {
   text-align: center;
   color: #522800;
   text-decoration: none;
+  font-family: "Sacramento", cursive;
 }
 
 .final {
   color: #522800;
   text-decoration: none;
+  font-family: "Sacramento", cursive;
 }
 
 .final:hover {
   text-decoration: underline;
+  font-family: "Sacramento", cursive;
 }
