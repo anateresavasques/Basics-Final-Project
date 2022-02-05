@@ -31,7 +31,7 @@ h2 {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 700px;
   border-radius: 25px;
   border-style: dotted;
   border: 1px solid #a04e35;
@@ -39,22 +39,25 @@ img {
 
 #clothes2 {
   width: 300px;
-  display: inline;
+  height: 370px;
+  margin-right: -165px;
 }
 
 #clothes3 {
   width: 300px;
-  display: inline;
+  height: 370px;
+  margin-right: -165px;
 }
 
 #clothes4 {
   width: 300px;
-  display: inline;
+  height: 370px;
+  margin-right: -165px;
 }
 
 p {
   line-height: 1.5;
-  font-size: 15px;
+  font-size: 30px;
   font-family: "Sacramento", cursive;
   margin: 20px 0 10px;
   text-align: center;
