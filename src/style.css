@@ -8,30 +8,33 @@ body {
 
 h1 {
   text-align: center;
-  color: #862305;
+  color: #a04e35;
   border: black;
   border-color: black;
-  font-family: "Indie Flower", cursive;
-  font-weight: lighter;
-  font-size: 50px;
+  font-family: "Sacramento", cursive;
+  font-size: 60px;
+  margin-bottom: 5px;
 }
 
 h2 {
   text-align: center;
-  border: 1px solid black;
+  border: 3px solid #a04e35;
+  border-style: dotted;
   padding: 15px;
-  font-size: 20px;
+  font-size: 32px;
   font-family: "Sacramento", cursive;
   font-weight: 35;
-  border-radius: 10px;
-  border-color: rgb(117, 53, 0);
+  border-radius: 45px;
+  border-color: #a04e35;
 }
 
 img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 25px;
+  border-style: dotted;
+  border: 1px solid #a04e35;
 }
 
 p {
